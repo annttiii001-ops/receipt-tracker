@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 기술 스택
 
 **Frontend:** React 18 + Vite 5 + TailwindCSS 3 + Axios  
-**Backend:** Python FastAPI + LangChain 0.2 + Upstage Document AI (`document-digitization-vision`)  
+**Backend:** Python FastAPI + LangChain 1.2.15 + Upstage Document AI (`document-digitization-vision`)  
 **Storage:** JSON 파일 (`backend/data/expenses.json`) — DB 없음  
 **Deploy:** Vercel (frontend + serverless backend)
 
@@ -91,6 +91,11 @@ frontend/src/
 ├── components/    # DropZone, ExpenseCard, SummaryCard, FilterBar, ParsePreview
 └── api/           # Axios 인스턴스 (baseURL = VITE_API_BASE_URL)
 ```
+
+## Git 작업 규칙
+
+- `commit`과 `push` 모두 반드시 사용자 확인 후 실행 — 확인 없이 단독 수행 금지
+- 원격 저장소: `https://github.com/annttiii001-ops/receipt-tracker`
 
 ## 디자인 시스템
 

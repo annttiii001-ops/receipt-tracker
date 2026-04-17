@@ -43,6 +43,7 @@ Thumbs.db
 
 # 분석 임시 파일 (주식 분석 세션)
 hynix_data*.json
+daewoo_*.json
 main_news.json
 news_list.json
 sectors.json
@@ -52,3 +53,26 @@ skhynix_main.png
 
 # 스크린샷 (루트 레벨만)
 /*.png
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+# Dependency directories
+# Environment variables
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# OS specific
+
+# Task files
+# tasks.json
+# tasks/ 
