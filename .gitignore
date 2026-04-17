@@ -1,0 +1,54 @@
+# 환경변수 및 시크릿
+.env
+.env.local
+.env.production
+
+# MCP 설정 (로컬 전용)
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# 업로드 임시 파일
+backend/uploads/
+
+# 데이터 파일 (로컬 저장 데이터)
+backend/data/expenses.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Claude Code 내부 설정 (로컬 전용)
+.claude/
+
+# 분석 임시 파일 (주식 분석 세션)
+hynix_data*.json
+main_news.json
+news_list.json
+sectors.json
+top_rise.json
+skhynix_main.png
+.playwright-mcp/
+
+# 스크린샷 (루트 레벨만)
+/*.png
